@@ -1,0 +1,196 @@
+#tl-internal-announcement.alert-info {
+    background-color:#ffffff;
+    border-color:#1b355a;
+    color:#1b355a;
+    font-size:16px !important;
+  }
+  #tl-internal-announcement.alert-info { color:#000000; }
+  iframe { overflow:hidden; }
+  .readability, .readability p, .readability li, .readability h1, .readability h2, .readability h3, .readability h4, .readability blockquote, .readability span { font-family:'Montserrat'; }
+  h1 {
+    font-weight:bold;
+    font-size:24px;
+    font-family:'Montserrat';
+  }
+  h2 {
+    font-weight:bold;
+    font-size:22px;
+    font-family:'Montserrat';
+  }
+  h3 {
+    font-weight:bold;
+    font-size:18px;
+    font-family:'Montserrat';
+  }
+  h4 {
+    font-weight:bold;
+    font-size:16px;
+    font-family:'Montserrat';
+  }
+  p {
+    font-weight:normal;
+    font-size:16px;
+    font-family:"Montserrat";
+  }
+  body {
+    font-weight:normal;
+    font-size:16px;
+    font-family:"Montserrat";
+  }
+  lix { font-size:16px; }
+  blockquote { font-size:16px; }
+  .hero-unit-login, #tl-login-form {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    max-width:600px;
+  }
+  .login-fields { width:100%; }
+  #tl-dropdown-messages #message_counter { background-color:#000000; }
+  #tl-spotlight { display:none; }
+  span.badge.tl-calendar-events-stats {
+    background-color:#881825;
+    color:#ffffff;
+  }
+  span.badge.tl-discussions-stats {
+    background-color:#881825;
+    color:#ffffff;
+  }
+  .brand .avatar-square {
+    max-width:200px;
+    max-height:120px;
+  }
+  .navbar-inner {
+    font-size:100%;
+    font-weight:normal;
+  }
+  .tl-get-catalog-course { display:none;  }
+  .tl-get-course {display:none; }
+  .tl-left-cell-answer, .tl-right-cell-answer {
+    font-size:16px !important;
+    background-color:white !important;
+    font-weight:bold !important;
+  }
+  .tl-drag-and-drop-cell { border-color:#000000 !important; }
+  tl-left-cell-puzzle pull-right { border-color:#000000 !important; }
+  .tl-answer span, .tl-answer-multiple span { font-size:16px !important; }
+  .tl-microstats-section { display:none; }
+  
+  .cms-home-title h3, .cms-home-featured-title h3, .cms-page-title h3 {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:'Montserrat';
+  }
+  .cms-page-text, .cms-page-only-text, .cms-page-title, .cms-page-only-media {
+    padding-left:22px;
+    padding-top:10px;
+  }
+  .cms-home-title h1, .cms-home-featured-title h1, .cms-page-title h1 {
+    font-family:"Montserrat";
+    font-weight:bold;
+    font-size:24px;
+  }
+  btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { font-family:"Montserrat"; }
+  .tl-cms-course-wrapper .tl-cms-course-title {
+    font-size:15px;
+    font-family:"Montserrat";
+  }
+  .tl-cms-keypoint-wrapper h2 { font-family:"Montserrat"; }
+  .cms-keypoints-title h1 { font-family:"Montserrat"; }
+  .cms-page-text, .cms-page-only-text, .cms-page-title, .cms-page-only-media { font-family:"Montserrat"; }
+  @font-face {
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:400;
+    font-display:swap;
+    src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range:U 0000 -00 FF, U 0131, U 0152 -0153, U 02 BB-02BC, U 02 C6, U 02 DA, U 02 DC, U 2000 -206 F, U 2074, U 20 AC, U 2122, U 2191, U 2193, U 2212, U 2215, U FEFF, U FFFD;
+  }
+  @font-face {
+    font-family:'Montserrat';
+    font-style:normal;
+    font-weight:400;
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+    unicode-range:U 0000 -00 FF, U 0131, U 0152 -0153, U 02 BB-02BC, U 02 C6, U 02 DA, U 02 DC, U 2000 -206 F, U 2074, U 20 AC, U 2122, U 2191, U 2193, U 2212, U 2215, U FEFF, U FFFD;
+  }
+  btn-dl { background-color:#a51d26; }
+  .icon, .text {
+    vertical-align:middle;
+    display:inline-block;
+  }
+  
+  
+  /*Font for some discussion forum topics in course units */
+  .tl-topic .tl-topic-content {
+    font-size: 16px;
+    font-family: Montserrat;
+  }
+  
+  
+  /*Font for some discussion forum topics in course units */
+  .tl-topic-content span {
+      font-family: Montserrat;
+      font-size: 16px;
+    
+  }
+  
+  
+  /* Font for discussion forum topics that are not following our defined font */
+  #tl-discussion-area
+  .tl-topic > div.tl-topic-content > span { 
+    font-family:'Montserrat' !important;
+    font-size: 16px;
+  }
+  
+  /* Knowledge Checks question */
+  #question_area 
+  * { font-family:'Montserrat' !important; }
+  
+  /* The solution to the toolbar icons not showing when apply Montserrat to everything */
+  body,.tl-event-time,.tl-grid-marketplace-sorting-wrapper
+  li, .tl-grid-catalog-sorting-wrapper li, .tl-dashboard-sorting-wrapper li,.tl-course-catalog-categories-bundles, .tl-marketplace-categories-providers,.tl-title,.tl-title .tl-box-title-options a, .tl-title .tl-box-title-options span,.tl-grid-filtering-wrapper
+  li,ul.tl-unit-list li a.tl-link,span.tl-options, div.tl-options,.trainer-course-info .course-name-options,.course-description .course-desc-options,.tl-goto-question li,.tl-marketplace-more-courses-from-provider-wrapper li, .tl-catalog-part-of-bundles-wrapper
+  li,ul.tl-cms-pages-list li a.tl-link,ul.tl-fcl li a,ul.tl-custom-fields-list li span.tl-link,#tl-infographics { font-family:'Montserrat' !important; }
+  
+  /* Padding the text for instructor messages */
+  .instructor-message-padding {
+  padding-left: 45px;
+  }
+  
+  /* custom padding */
+  .custom-message-padding {
+    padding-left: 30px; 
+    padding-right: 30px;
+  }
+  
+  /* spacing for <li> elements on JD mod 4 assignment */
+  .custom-message-spacing {
+    line-height: 2.0 !important;
+  }
+  
+  /*Incorrect search message on the home screen */
+  .tl-search-empty-result { display:none!important;}
+  
+  
+  /* For the footer 
+  .eod-footer-container {
+      padding: 20px;
+      background-color: #f0a910;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  }
+  
+  .eod-footer-container a {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .span12 cms-page-only-text text-left {
+  
+    background-color: #f0a910;
+  }
+  
+  */
