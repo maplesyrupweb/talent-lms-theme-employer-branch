@@ -64,8 +64,13 @@
     font-size:100%;
     font-weight:normal;
   }
-  .tl-get-catalog-course { display:none;  }
-  .tl-get-course {display:none; }
+  
+
+  /* We want the leader to be able to self register */
+  /* .tl-get-catalog-course { display:none;  }
+  .tl-get-course {display:none; } */
+
+
   .tl-left-cell-answer, .tl-right-cell-answer {
     font-size:16px !important;
     background-color:white !important;
