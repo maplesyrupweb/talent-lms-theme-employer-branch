@@ -81,5 +81,18 @@ $.getScript("https://www.googletagmanager.com/gtag/js?id=G-ZLEF8K2EJV",function(
 // Assignment footer. This will appear on every page that has an assignment unit currently and in the future
 
 if($('.tl-assignment-area').length){
-    $('<div class="text-center" style="color:black; padding-left:5px; font-size:16px; background-color: #881825; color:white"> If you need help zipping files, please refer to this <a href="https://supportedemployment.freshdesk.com/support/solutions/articles/73000572049-how-to-zip-files-for-assignments" target="_blank" style="color:white; text-decoration:underline"> article</a> or submit a <a href="https://supportedemployment.freshdesk.com/support/tickets/new" target="_blank" style="color:white; text-decoration:underline">help ticket</a> or reach out to CASE for support: <a style="color:white; text-decoration:underline" href="mailto:albert@supportedemployment.ca?subject=Zip%20files%20for%20module">albert@supportedemployment.ca</a></div>').insertAfter($('.tl-assignment-area'));
-    }
+  $('<div class="text-center" style="color:black; padding-left:5px; font-size:16px; background-color: #881825; color:white"> If you need help zipping files, please refer to this <a href="https://supportedemployment.freshdesk.com/support/solutions/articles/73000572049-how-to-zip-files-for-assignments" target="_blank" style="color:white; text-decoration:underline"> article</a> or submit a <a href="https://supportedemployment.freshdesk.com/support/tickets/new" target="_blank" style="color:white; text-decoration:underline">help ticket</a> or reach out to CASE for support: <a style="color:white; text-decoration:underline" href="mailto:albert@supportedemployment.ca?subject=Zip%20files%20for%20module">albert@supportedemployment.ca</a></div>').insertAfter($('.tl-assignment-area'));
+  }
+
+
+// Assignment footer. This will appear on every page that has an assignment unit currently and in the future
+
+if($('.tl-hr-content').length){
+$('<div class="text-center" style="color:black; padding-left:5px; font-size:16px; background-color: #881825; color:white"> If you need help zipping files, please refer to this <a href="https://supportedemployment.freshdesk.com/support/solutions/articles/73000572049-how-to-zip-files-for-assignments" target="_blank" style="color:white; text-decoration:underline"> article</a> or submit a <a href="https://supportedemployment.freshdesk.com/support/tickets/new" target="_blank" style="color:white; text-decoration:underline">help ticket</a> or reach out to CASE for support: <a style="color:white; text-decoration:underline" href="mailto:albert@supportedemployment.ca?subject=Zip%20files%20for%20module">albert@supportedemployment.ca</a></div>').insertBefore($('.tl-hr-content'));
+}
+
+//Load Bootstrap Icons                                          
+var styles=document.createElement('link');
+styles.href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css';
+styles.rel="stylesheet";
+document.getElementsByTagName('head')[0].prepend(styles);
