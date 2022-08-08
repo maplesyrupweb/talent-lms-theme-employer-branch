@@ -253,3 +253,8 @@
 .icons {
   font-size: 20px;
   }
+
+  .footer-message {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }

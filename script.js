@@ -78,12 +78,10 @@ $.getScript("https://www.googletagmanager.com/gtag/js?id=G-ZLEF8K2EJV",function(
   gtag('config', 'G-ZLEF8K2EJV');
 });
 
-// Assignment footer. This will appear on every page that has an assignment unit currently and in the future
-
+//Assignment footer
 if($('.tl-assignment-area').length){
-  $('<div class="text-center" style="color:black; padding-left:5px; font-size:16px; background-color: #881825; color:white"> If you need help zipping files, please refer to this <a href="https://supportedemployment.freshdesk.com/support/solutions/articles/73000572049-how-to-zip-files-for-assignments" target="_blank" style="color:white; text-decoration:underline"> article</a> or submit a <a href="https://supportedemployment.freshdesk.com/support/tickets/new" target="_blank" style="color:white; text-decoration:underline">help ticket</a> or reach out to CASE for support: <a style="color:white; text-decoration:underline" href="mailto:albert@supportedemployment.ca?subject=Zip%20files%20for%20module">albert@supportedemployment.ca</a></div>').insertAfter($('.tl-assignment-area'));
+  $('<div class="text-center footer-message" style="color:black; padding-left:5px; font-size:16px; background-color: #881825; color:white"><i class="bi bi-info-circle icons"></i> If you need help zipping files, please refer to this <a href="https://supportedemployment.freshdesk.com/support/solutions/articles/73000572049-how-to-zip-files-for-assignments" target="_blank" style="color:white; text-decoration:underline"> article</a> or submit a <a href="https://supportedemployment.freshdesk.com/support/tickets/new" target="_blank" style="color:white; text-decoration:underline">help ticket</a> or reach out to <a style="color:white; text-decoration:underline" href="mailto:albert@supportedemployment.ca?subject=Zip%20files%20for%20module">CASE</a> for support</div>').insertAfter($('.tl-assignment-area'));
   }
-
 
 // Assignment footer. This will appear on every page that has an assignment unit currently and in the future
 
