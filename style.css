@@ -265,11 +265,11 @@
     position:fixed;
 	bottom: 20px;
 	right: 15px;
-    height: 60px;
+    height: 55px;
     /*color: #881825; */
-    background:  url(https://supportedemployment.ca/wp-content/uploads/2022/08/speech-bubble.png)no-repeat; 
+    background:  url(https://supportedemployment.ca/wp-content/uploads/2022/08/speak-2.png)no-repeat; 
       
-    width: 60px;
+    width: 55px;
     background-size: 100%;
     z-index: 99999999999;
     cursor: pointer;
