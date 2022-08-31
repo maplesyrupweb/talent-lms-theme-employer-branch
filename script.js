@@ -1,10 +1,34 @@
+
 /* Userway Assessibility Integration */
 
-(function(d){var s = d.createElement("script");s.setAttribute("data-account", "tWoEr9mmVy");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)
 
-$('fieldset').has('legend:contains("Completion rules")').hide();
+(function(d){var s = d.createElement("script");
+//    var t = d.createElement("style");
+    s.setAttribute("data-account", "tWoEr9mmVy");
+    s.setAttribute("src", "https://cdn.userway.org/widget.js");
+//    t.setAttribute('class', 'myclass');
+    (d.body || d.head).appendChild(s);})(document)
 
 
+var _userway_config = {
+/* uncomment the following line to override default position*/
+/* position: 3, */
+/* uncomment the following line to override default size (values: small, large)*/
+ size: 'small', 
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+ language: 'en',
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+ color: '#881825',
+/* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
+ type: '1', 
+/* statement_text: 'Our Accessibility Statement', */
+ statement_url: 'https://supportedemployment.ca/wp-content/uploads/2021/12/CASE-Accessibility-Statement-Learning-Portal-Final.pdf', 
+/* uncomment the following line to override support on mobile devices*/
+ mobile: true, 
+/* uncomment the following line to set custom trigger action for accessibility menu*/
+/* s.setAttribute("data-trigger", "triggerId"), */
+account: 'tWoEr9mmVy'
+};
 
 //Accordion on the course page
 
@@ -23,18 +47,18 @@ $('.tl-scorm-frame').css("height", "80vh");
 
 //Freshworks Widget
 
-window.fwSettings={
-	'widget_id':73000001474
-	};
-	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
+// window.fwSettings={
+// 	'widget_id':73000001474
+// 	};
+// 	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
                                                                                                           
-var freshdesk = document.createElement('script');
-freshdesk.src = "https://widget.freshworks.com/widgets/73000001474.js";
-document.getElementsByTagName('head')[0].appendChild(freshdesk);
+// var freshdesk = document.createElement('script');
+// freshdesk.src = "https://widget.freshworks.com/widgets/73000001474.js";
+// document.getElementsByTagName('head')[0].appendChild(freshdesk);
 
-var freshdesk1 = document.createElement('script');
-freshdesk1.src = "https://assets.freshdesk.com/widget/freshwidget.js";
-document.getElementsByTagName('head')[0].appendChild(freshdesk1);
+// var freshdesk1 = document.createElement('script');
+// freshdesk1.src = "https://assets.freshdesk.com/widget/freshwidget.js";
+// document.getElementsByTagName('head')[0].appendChild(freshdesk1);
                                                                
 /* Add alt text manually */                                                               
 $('img[src="https://d3j0t7vrtr92dk.cloudfront.net/case/1649109608_1611080594_logo_small_case__2_.png?"]').attr('alt', 'CASE LOGO');
