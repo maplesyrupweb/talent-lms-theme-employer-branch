@@ -118,3 +118,38 @@ var styles=document.createElement('link');
 styles.href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css';
 styles.rel="stylesheet";
 document.getElementsByTagName('head')[0].prepend(styles);
+
+/**
+ * Freshchat Setup
+ */
+ function initFreshChat() {
+  window.fcWidget.init({
+  token: "0f89ce71-7e3d-4f12-aad1-e23341d3ea5f",
+  host: "https://wchat.freshchat.com",
+  "config": {
+  "headerProperty": {
+  direction: 'rtl', 
+  "hideChatButton": true,
+  backgroundColor: '#881825',
+  foregroundColor: '#ffffff',
+}
+}
+});
+
+// When Freshchat window is open, hide the icon
+window.fcWidget.on("widget:opened", function(resp) {
+console.log('Chat Widget Opened');
+document.getElementById('custom_chat_button').style.visibility = "hidden"
+});
+
+// When Freshchat window is closed, show the icon
+window.fcWidget.on("widget:closed", function(resp) {
+console.log('Chat Widget Closed');
+document.getElementById('custom_chat_button').style.visibility = "visible"
+});
+}
+
+// Freshchat helper code
+function initialize(i,t)
+  {var e;
+  i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
