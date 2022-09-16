@@ -160,3 +160,22 @@ function initialize(i,t)
 // Freshchat initiateCall
 function initiateCall()
   {initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+
+
+
+/**
+ *  Move the sign-in and sign-up with social media to the top of the page. 
+ * 
+ *  For this to work, login as admin, go to Users tab under accounts and settings, put checkbox on allow signups through *  social media, and choose which accounts. A branch or portal has to also allow direct signups
+ */
+  
+$(document).ready(function() {
+  //code to move Log in with social media on top of the login modal.
+      if ($('#tl-cms-login-modal').length) {
+          $('.spacer--x2.text-center').has('a[data-select-state="auth_form_view:social_login"]').detach().insertBefore('#tl-cms-login-form');
+  }
+  //code to move sign-up with social media on top of the signup modal.
+  if ($(' .tl-auth-form--handle-display[data-state-name="signup"]').length) {
+          $('.spacer--x2.text-center').has('a[data-select-state="auth_form_view:social_signup"]').detach().insertBefore('.tl-auth-form--handle-display[data-state-name="signup"] form[name="signup_form"]');
+  }
+  });
