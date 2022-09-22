@@ -254,23 +254,23 @@
   font-size: 20px;
   }
 
-  .footer-message {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.footer-message {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+#custom_chat_button {
+  /*static|absolute|fixed|relative|sticky|initial|inherit;  */
+  position:fixed;
+  bottom: 20px;
+  right: 15px;
+  height: 45px;
+  /*color: #881825; */
+  background:  url(https://supportedemployment.ca/wp-content/uploads/2022/08/speak-2.png)no-repeat; 
+    
+  width: 45px;
+  background-size: 100%;
+  z-index: 99999999999;
+  cursor: pointer;
   }
-
-
-  #custom_chat_button {
-    /*static|absolute|fixed|relative|sticky|initial|inherit;  */
-    position:fixed;
-	bottom: 20px;
-	right: 15px;
-    height: 55px;
-    /*color: #881825; */
-    background:  url(https://supportedemployment.ca/wp-content/uploads/2022/08/speak-2.png)no-repeat; 
-      
-    width: 55px;
-    background-size: 100%;
-    z-index: 99999999999;
-    cursor: pointer;
-    }
